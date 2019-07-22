@@ -38,8 +38,20 @@ In this visualization step, the data that used here is modified to be able to im
 
 And for the Edges Data the header should be like the images below.
 
-![nodesEdges](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Edges_Data.PNG)
+![edgesHeader](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Edges_Data.PNG)
 
 ### Importing The Datasets
 
-To import the dataset to the Gephi, first we need to start the Gephi and open a new Project. Then in the Data Labolatory tab, click on "Import Spreadsheet" to open the import window and import your Nodes File.
+To import the dataset to the Gephi, first we need to start the Gephi and open a new Project. Then in the Data Labolatory tab, click on "Import Spreadsheet" to open the import window and import your Nodes File. See the .gif below to see the details.
+
+![tutorialImportSpreadsheet](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Importing_Spreadsheet.gif)
+
+After that you can choose your Nodes file, and choose the configuration like shown below.
+
+![importNodes](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Import_Nodes.PNG)
+
+![importNodes(2)](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Import_Nodes(2).PNG)
+
+![importNodes(3)](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Import_Nodes(3).PNG)
+
+
