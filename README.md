@@ -78,7 +78,7 @@ And the configuration used is:
     -Fruchterman Reingold with 10x speed.
     -Noverlap to prevent overlapping edges or nodes.
     
-![experiment1](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment 1.PNG)
+![experiment1](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_1.PNG)
 
     
 ### Experiment 2
@@ -93,7 +93,7 @@ And the configuration used is:
     -Fruchterman Reingold with 10x speed.
     -Noverlap to prevent overlapping edges or nodes.
     
-![experiment2](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment 2.PNG)
+![experiment2](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_2.PNG)
 
     
 ### Experiment 3
@@ -108,6 +108,6 @@ And the configuration used is:
     -Fruchterman Reingold with 10x speed.
     -Noverlap to prevent overlapping edges or nodes.
     
-![experiment3](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment 3.PNG)
+![experiment3](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_3.PNG)
 
     
