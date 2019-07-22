@@ -26,7 +26,7 @@ Gephi can be downloaded free [here](https://gephi.org/users/download/). Gephi is
 After Gephi and Java installed, you need to download the csv import plugin that can be found in Gephi.
 This can be done by following the .gif below.
 
-![tutorialPlugin](https://githubusercontent.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/Installing_Plugin.gif)
+![tutorialPlugin](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/Installing_Plugin.gif)
 
 ### About The Datasets
 
