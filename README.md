@@ -14,6 +14,50 @@ The main goal of this program is to show which IP is attacking alot dan which IP
 
 To show the data, first we need to acquire the data. in this project, the data is obtained from our lecturer. the data consist of time (in format of UNIX), source IP, Country, latitude, longitude, ASN (Autonomous System Number), destination IP, and source port.
 
+## Data Preparation
+
+The data given is not cleaned and needs to be cleaned in order to be visualized. In order to do that, we use *Pandas* to manipulate our data and dataframes. *Pandas* is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+
+### Data Cleansing
+
+In consideration to our limited computing power, we decided to split the data in 21 files, each consisting of 1 million entries. We split the data using a simple python script as the following: ![DataSplitter](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/Data%20splitter.PNG)  
+These files that contain several noise, which does not contribute to our goal, were removed using Microsoft Excel. We sorted out the empty column to get rid of the noise. We managed to found several entries that identifies its 'cntry' column as 'A1' and 'A2' but as described in the ISO 3166 international standard of Alpha-2 Codes, these entries do not match any of them. After successfully cleaning the data, we merged the file back into a file using a simple python script as followed: ![MergeFiles](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/Merge%20file.PNG)
+
+### Data Preparation cont.
+
+In consideration to our limited computing power and the enormous size of the data even after cleansing, we decided to prepare our data into: data of network attackers by country, data of network attackers by asn, data of attacker by source ip and frequency, data of attacker after looked up to combined data, data of attacked by dest ip and frequency of being attacked, and data of attacked after looked up to combined data. 
+
+#### Data of network attackers by country
+
+This data is used to provide visualization of which country that has the most network attackers by the frequency of attacks. We decided to plot the data as a choropleth of geographical map using plotly. In order to prepare the data, we used a python script to add Alpha-3 country code because plotly choropleth heatmap cannot understand Alpha-2 code.
+![dataCountry](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20country.PNG)
+
+#### Data of ASN
+
+This data is used to provide further visualization for other project if needed. We used python script to group the data and dropped some unnecessary columns. ![dataAsn](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20asn.PNG)
+
+#### Significant Network Attacker (a)
+
+This data is used to provide visualization of significant network attacker with frequency of attacks >= 10.
+![dataAttacker](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacker.PNG)
+
+### Significant Network being Attacked (b)
+
+This data is used to provide visualization of significant network nodes with frequency of being attacked >= 6
+1[dataAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacked.PNG)
+
+### Looked up data of (a)
+
+
+
+### Looked up data of (b)
+
+This data is used to provide visualization for network graph. Because of the nature of the 'time' data that was in the form of unix timestamp, the data has to be converted into date format.
+![lookedupAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20lookedup%20attacked.PNG)
+
+## Visualization with Plotly
+
+The visualization of heatmap has been attached as *heatmap.html*. The python code is as followed: ![heatmap](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/heatmap.PNG)
 
 ## Visualization With Gephi
 
