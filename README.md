@@ -68,15 +68,15 @@ With Gephi, you can visualize the network data as you like. There is no limit to
 
 ### Experiment 1
 
-In this experiment, the data that we use is the IP that have been attacked more than 6 times. 
-And the configuration used is: 
-  -Edges merge strategy that we use is first. 
-  -Color is ranked based on In-Degree. 
-  -Nodes size is ranked based on In-Degree. 
-  -3 Layout used in this experiment is: 
-    -Force Atlas 2 with Prevent Overlap ticked. 
-    -Fruchterman Reingold with 10x speed. 
-    -Noverlap to prevent overlapping edges or nodes. 
+In this experiment, the data that we use is the IP that have been attacked more than 6 times.<br/>
+And the configuration used is: <br/>
+  -Edges merge strategy that we use is first. <br/>
+  -Color is ranked based on In-Degree. <br/>
+  -Nodes size is ranked based on In-Degree. <br/>
+  -3 Layout used in this experiment is: <br/>
+    -Force Atlas 2 with Prevent Overlap ticked. <br/>
+    -Fruchterman Reingold with 10x speed. <br/>
+    -Noverlap to prevent overlapping edges or nodes. <br/>
     
 ![experiment1](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_1.PNG)
 
@@ -85,15 +85,15 @@ In this experiment we can conclude that using first as the edges merge strategy 
     
 ### Experiment 2
 
-In this experiment, the data that we use is the IP that have been attacked more than 6 times.
-And the configuration used is:
-  -Edges merge strategy that we use is Don't Merge.
-  -Color is ranked based on In-Degree.
-  -Nodes size is ranked based on In-Degree.
-  -3 Layout used in this experiment is
-    -Force Atlas 2 with Prevent Overlap ticked.
-    -Fruchterman Reingold with 10x speed.
-    -Noverlap to prevent overlapping edges or nodes.
+In this experiment, the data that we use is the IP that have been attacked more than 6 times.<br/>
+And the configuration used is:<br/>
+  -Edges merge strategy that we use is Don't Merge.<br/>
+  -Color is ranked based on In-Degree.<br/>
+  -Nodes size is ranked based on In-Degree.<br/>
+  -3 Layout used in this experiment is<br/>
+    -Force Atlas 2 with Prevent Overlap ticked.<br/>
+    -Fruchterman Reingold with 10x speed.<br/>
+    -Noverlap to prevent overlapping edges or nodes.<br/>
     
 ![experiment2](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_2.PNG)
 
@@ -101,15 +101,15 @@ In this experiment we can conclude that using the Don't merge edges strategy mak
     
 ### Experiment 3
 
-In this experiment, the data that we use is the IP that have been attacked more than 6 times.
-And the configuration used is:
-  -Edges merge strategy that we use is SUM.
-  -Color is ranked based on In-Degree.
-  -Nodes size is ranked based on In-Degree.
-  -3 Layout used in this experiment is
-    -Force Atlas 2 with Prevent Overlap ticked.
-    -Fruchterman Reingold with 10x speed.
-    -Noverlap to prevent overlapping edges or nodes.
+In this experiment, the data that we use is the IP that have been attacked more than 6 times.<br/>
+And the configuration used is:<br/>
+  -Edges merge strategy that we use is SUM.<br/>
+  -Color is ranked based on In-Degree.<br/>
+  -Nodes size is ranked based on In-Degree.<br/>
+  -3 Layout used in this experiment is<br/>
+    -Force Atlas 2 with Prevent Overlap ticked.<br/>
+    -Fruchterman Reingold with 10x speed.<br/>
+    -Noverlap to prevent overlapping edges or nodes.<br/>
     
 ![experiment3](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_3.PNG)
 
@@ -117,15 +117,15 @@ In this experiment we can see that using SUM as the edges merge strategy makes t
 
 ### Experiment 4
 
-In this experiment, the data that we use is the IP that have been attacked more than 6 times.
-And the configuration used is:
-  -Edges merge strategy that we use is SUM.
-  -Color is ranked based on Out-Degree.
-  -Nodes size is ranked based on Out-Degree.
-  -3 Layout used in this experiment is
-    -Force Atlas 2 with Prevent Overlap ticked.
-    -Fruchterman Reingold with 10x speed.
-    -Noverlap to prevent overlapping edges or nodes.
+In this experiment, the data that we use is the IP that have been attacked more than 6 times.<br/>
+And the configuration used is:<br/>
+  -Edges merge strategy that we use is SUM.<br/>
+  -Color is ranked based on Out-Degree.<br/>
+  -Nodes size is ranked based on Out-Degree.<br/>
+  -3 Layout used in this experiment is<br/>
+    -Force Atlas 2 with Prevent Overlap ticked.<br/>
+    -Fruchterman Reingold with 10x speed.<br/>
+    -Noverlap to prevent overlapping edges or nodes.<br/>
     
 ![experiment4](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_4.PNG)
 
