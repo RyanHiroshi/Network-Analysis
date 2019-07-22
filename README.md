@@ -24,7 +24,9 @@ The data that has been cleansed is going to be visualized using a network visual
 Gephi can be downloaded free [here](https://gephi.org/users/download/). Gephi is working on a previous version of Java. To be able to run Gephi, you'll have to download and install Java, you can download it [here](https://www.java.com/en/download/). 
 
 After Gephi and Java installed, you need to download the csv import plugin that can be found in Gephi.
-This can be done by opening Gephi, then click the tools on the toolbar, then click plugin, 
+This can be done by following the .gif below.
+
+![tutorialPlugin](https://githubusercontent.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/Installing_Plugin.gif)
 
 ### About The Datasets
 
