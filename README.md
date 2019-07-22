@@ -80,6 +80,8 @@ And the configuration used is:
     
 ![experiment1](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_1.PNG)
 
+In this experiment we can conclude that using first as the edges merge strategy doesn't fit this network visualization. It's because using this edges merge strategy doesn't have too much information to be shown than the other edges merge strategy. This edges merge strategy is okay if we just wanted to see the nodes connection.
+
     
 ### Experiment 2
 
@@ -95,6 +97,7 @@ And the configuration used is:
     
 ![experiment2](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_2.PNG)
 
+In this experiment we can conclude that using the Don't merge edges strategy makes the Nodes that have been ranked by In-Degree appears significantly more bigger than the other. We can clearly see the Nodes that have been attacked alot by the size of the nodes.
     
 ### Experiment 3
 
@@ -110,4 +113,21 @@ And the configuration used is:
     
 ![experiment3](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_3.PNG)
 
+In this experiment we can see that using SUM as the edges merge strategy makes the edges appears more BOLD. this makes us can see the nodes that are attacking the other IP easily seen.
+
+### Experiment 4
+
+In this experiment, the data that we use is the IP that have been attacked more than 6 times.
+And the configuration used is:
+  -Edges merge strategy that we use is SUM.
+  -Color is ranked based on Out-Degree.
+  -Nodes size is ranked based on Out-Degree.
+  -3 Layout used in this experiment is
+    -Force Atlas 2 with Prevent Overlap ticked.
+    -Fruchterman Reingold with 10x speed.
+    -Noverlap to prevent overlapping edges or nodes.
     
+![experiment4](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_4.PNG)
+
+    
+This experiment is specifically made to visualize the Nodes that attacks frequently. Which can be seen with the big Nodes and/or big edges and/or nodes that have darker green means that they are attackers. This is made possible because of the color and nodes is ranked by Out-Degrees and the edges merge strategy is SUM.
