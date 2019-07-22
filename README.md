@@ -28,6 +28,8 @@ This can be done by following the .gif below.
 
 ![tutorialPlugin](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Installing_Plugin.gif)
 
+after this part you just need to follow the installation.
+
 ### About The Datasets
 
 In this visualization step, the data that used here is modified to be able to imported into Gephi.
