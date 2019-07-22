@@ -175,3 +175,8 @@ And the configuration used is:<br/>
 
     
 This experiment is specifically made to visualize the Nodes that attacks frequently. Which can be seen with the big Nodes and/or big edges and/or nodes that have darker green means that they are attackers. This is made possible because of the color and nodes is ranked by Out-Degrees and the edges merge strategy is SUM.
+
+## Authors
+* **Ryan Hiroshi** - [RyanHiroshi](https://github.com/RyanHiroshi)
+* **Albert Antonio** - [mailmancy](https://github.com/mailmancy)
+
