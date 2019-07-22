@@ -32,4 +32,14 @@ after this part you just need to follow the installation.
 
 ### About The Datasets
 
-In this visualization step, the data that used here is modified to be able to imported into Gephi.
+In this visualization step, the data that used here is modified to be able to imported into Gephi. First of all, we gonna have 2 file which have the data for the Nodes and the data for Edges. For the Nodes data the Header should be like the images below.
+
+![nodesHeader](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Nodes_Data.PNG)
+
+And for the Edges Data the header should be like the images below.
+
+![nodesEdges](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Edges_Data.PNG)
+
+### Importing The Datasets
+
+To import the dataset to the Gephi, first we need to start the Gephi and open a new Project. Then in the Data Labolatory tab, click on "Import Spreadsheet" to open the import window and import your Nodes File.
