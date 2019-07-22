@@ -68,15 +68,15 @@ With Gephi, you can visualize the network data as you like. There is no limit to
 
 ### Experiment 1
 
-In this experiment, the data that we use is the IP that have been attacked more than 6 times.
-And the configuration used is:
+In this experiment, the data that we use is the IP that have been attacked more than 6 times. 
+And the configuration used is: 
   -Edges merge strategy that we use is first. 
-  -Color is ranked based on In-Degree.
-  -Nodes size is ranked based on In-Degree.
-  -3 Layout used in this experiment is
-    -Force Atlas 2 with Prevent Overlap ticked.
-    -Fruchterman Reingold with 10x speed.
-    -Noverlap to prevent overlapping edges or nodes.
+  -Color is ranked based on In-Degree. 
+  -Nodes size is ranked based on In-Degree. 
+  -3 Layout used in this experiment is: 
+    -Force Atlas 2 with Prevent Overlap ticked. 
+    -Fruchterman Reingold with 10x speed. 
+    -Noverlap to prevent overlapping edges or nodes. 
     
 ![experiment1](https://raw.githubusercontent.com/RyanHiroshi/Network-Analysis/master/Screenshot/Experiment_1.PNG)
 
