@@ -48,6 +48,8 @@ This data is used to provide visualization of significant network nodes with fre
 
 ### Looked up data of (a)
 
+This data is used to provide visualization for scatter plot geo map. The data is grouped by source ip and date (by days) and the accumulative value of Frequency.
+![lookedupAttacker](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20lookedup%20attacker.PNG)
 
 
 ### Looked up data of (b)
