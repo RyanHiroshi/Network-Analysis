@@ -44,7 +44,7 @@ This data is used to provide visualization of significant network attacker with 
 ### Significant Network being Attacked (b)
 
 This data is used to provide visualization of significant network nodes with frequency of being attacked >= 6
-1[dataAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacked.PNG)
+![dataAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacked.PNG)
 
 ### Looked up data of (a)
 
