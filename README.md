@@ -29,37 +29,39 @@ In consideration to our limited computing power and the enormous size of the dat
 
 #### Data of network attackers by country
 
-This data is used to provide visualization of which country that has the most network attackers by the frequency of attacks. We decided to plot the data as a choropleth of geographical map using plotly. In order to prepare the data, we used a python script to add Alpha-3 country code because plotly choropleth heatmap cannot understand Alpha-2 code.
+This data is used to provide visualization of which country that has the most network attackers by the frequency of attacks. We decided to plot the data as a choropleth of geographical map using plotly. In order to prepare the data, we used a python script to add Alpha-3 country code because plotly choropleth heatmap cannot understand Alpha-2 code. The file **data_cntry.csv** is attached.
 ![dataCountry](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20country.PNG)
 
 #### Data of ASN
 
-This data is used to provide further visualization for other project if needed. We used python script to group the data and dropped some unnecessary columns. ![dataAsn](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20asn.PNG)
+This data is used to provide further visualization for other project if needed. We used python script to group the data and dropped some unnecessary columns. The file **data_asn.csv** is attached. ![dataAsn](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20asn.PNG)
 
 #### Significant Network Attacker (a)
 
-This data is used to provide visualization of significant network attacker with frequency of attacks >= 10.
+This data is used to provide visualization of significant network attacker with frequency of attacks >= 10. The file **data_large_attacker.csv** is attached.
 ![dataAttacker](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacker.PNG)
 
 ### Significant Network being Attacked (b)
 
-This data is used to provide visualization of significant network nodes with frequency of being attacked >= 6
+This data is used to provide visualization of significant network nodes with frequency of being attacked >= 6. The file **data_large_attacker.csv** is attached.
 ![dataAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20attacked.PNG)
 
 ### Looked up data of (a)
 
-This data is used to provide visualization for scatter plot geo map. The data is grouped by source ip and date (by days) and the accumulative value of Frequency.
+This data is used to provide visualization for scatter plot geo map. The data is grouped by source ip and date (by days) and the accumulative value of Frequency. The file **data_large_attacker_lookedup.csv** is attached.
 ![lookedupAttacker](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20lookedup%20attacker.PNG)
 
 
 ### Looked up data of (b)
 
-This data is used to provide visualization for network graph. Because of the nature of the 'time' data that was in the form of unix timestamp, the data has to be converted into date format.
+This data is used to provide visualization for network graph. Because of the nature of the 'time' data that was in the form of unix timestamp, the data has to be converted into date format. The file **data_large_attacked_lookedup.csv** is attached.
 ![lookedupAttacked](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/data%20lookedup%20attacked.PNG)
 
 ## Visualization with Plotly
 
-The visualization of heatmap has been attached as *heatmap.html*. The python code is as followed: ![heatmap](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/heatmap.PNG)
+The visualization of heatmap has been attached as **heatmap.html**. The python code is as followed: ![heatmap](https://github.com/RyanHiroshi/Network-Analysis/blob/master/Screenshot/heatmap.PNG)
+
+The visualization of bubblemap with animation timeframe for attacker by source ip is attached as **attacker.html** and for attacker by country is attached as **attacker_other.html**.
 
 ## Visualization With Gephi
 
